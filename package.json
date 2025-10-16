@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "company-formation-server",
+  "version": "1.0.0",
+  "description": "Python Flask server for company formation documents",
+  "scripts": {
+    "build": "echo 'This is a Python app, not a Node.js app'"
+  }
+}
