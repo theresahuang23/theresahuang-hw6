@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "buildCommand": "cd company_formation_server && pip install -r requirements.txt",
+  "builds": [
+    {
+      "src": "company_formation_server/app.py",
+      "use": "@vercel/python",
+      "config": {
+        "maxLambdaSize": "15mb",
+        "runtime": "python3.11"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "company_formation_server/app.py"
+    }
+  ]
+}

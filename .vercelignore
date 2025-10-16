@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log
+.pytest_cache
+__pycache__
+*.pyc
+.git
+.gitignore
+test_*.py
+pytest.ini
+.env
+.env.local
+*.pdf
+.DS_Store
