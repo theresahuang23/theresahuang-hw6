@@ -1,0 +1,10 @@
+{
+    "company_name": "Test Company",
+    "company_type": "corporation",
+    "incorporator_name": "Testy McTestface",
+    "state_of_formation": "NY",
+    "incorporator_address": "418 BROADWAY STE Y, ALBANY, ALBANY COUNTY, NY 12207",
+    "county": "ALBANY COUNTY",
+    "shares": 1000,
+    "par_value": 0.01
+}
